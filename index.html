@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Convertion Calculator</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Convertion Calculator</h1>
+
+    <input type="text" id="cal-input">
+
+    <select  id="cal-select" >
+      <option value="celcius">Celcius</option>
+      <option value="fahrenheit">Fahrenheit</option>
+    </select>
+
+    <button id="cal-convert" 
+       onclick = "selectOption(); ">Convert
+    </button>
+
+
+    <h3 id="cal-display"></h3>
+    
+    <!-- End Of Container -->
+  </div>
+
+
+  <script src="app.js"></script>
+  
+</body>
+</html>
