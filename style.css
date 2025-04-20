@@ -38,3 +38,12 @@
 #cal-display{
   margin-top: 40px;
 }
+
+
+    /* BreakPoint */
+
+  @media(min-width: 275px) and (max-width: 700px){
+    #cal-select{
+      margin: 3rem 0;
+    }
+  }
